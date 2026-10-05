@@ -1,0 +1,88 @@
+export const PROJECTS = [
+  {
+    id: 'ai-fitness-buddy',
+    title: 'AI Fitness Buddy',
+    category: 'AI + Full Stack',
+    description:
+      'Voice-enabled AI health platform that generates personalized workout and diet plans using Google Gemini, with a real-time Vapi AI voice assistant for hands-free coaching.',
+    technologies: [
+      'Next.js',
+      'React',
+      'Tailwind CSS',
+      'Convex',
+      'Clerk',
+      'Gemini AI',
+      'Vapi AI',
+    ],
+    features: [
+      'AI-generated workout & diet plans via Gemini API',
+      'Real-time Vapi AI voice assistant',
+      'Reactive Convex schemas for instant state sync',
+      'Progress & workout history tracking',
+      'Clerk authentication with cross-device sessions',
+    ],
+    image: '/images/fitness-buddy-modern.svg',
+    github: '[GitHub URL — AI Fitness Buddy]',
+    demo: '[Live Demo URL — AI Fitness Buddy]',
+  },
+  {
+    id: 'ai-saas-dashboard',
+    title: 'AI SaaS Dashboard',
+    category: 'Frontend + AI UI',
+    description:
+      'Responsive AI SaaS platform UI with authentication, protected dashboard, AI tool modules, history, profile, pricing, and settings pages — built with reusable components and modern UX patterns.',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Bootstrap',
+    ],
+    features: [
+      'AI chat, summarization, email/blog/code generators',
+      'Protected dashboard & authentication UI',
+      'Responsive sidebar + dark/light mode',
+      'Search, copy-to-clipboard, loading states',
+      'Charts, dashboard cards, profile & settings',
+    ],
+    image: '/images/ai-saas-dashboard.svg',
+    github: '[GitHub URL — AI SaaS Dashboard]',
+    demo: '[Live Demo URL — AI SaaS Dashboard]',
+  },
+  {
+    id: 'car-rental-platform',
+    title: 'Car Rental Platform',
+    category: 'Frontend',
+    description:
+      'Responsive car rental platform with vehicle listings, detailed specifications, availability checks, advanced filtering, and a complete booking interface.',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    features: [
+      'Vehicle listings with detailed specs',
+      'Filter by price, brand, fuel, transmission',
+      'Reusable vehicle cards & booking forms',
+      'Availability, search & booking interfaces',
+      'Responsive navigation with hover animations',
+    ],
+    image: '/images/car-rental.svg',
+    github: '[GitHub URL — Car Rental Platform]',
+    demo: '[Live Demo URL — Car Rental Platform]',
+  },
+  {
+    id: 'job-portal',
+    title: 'Job Portal',
+    category: 'Frontend',
+    description:
+      'Responsive job portal interface for candidates to search, filter, view, and apply for opportunities, with employer-side dashboards for job management.',
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    features: [
+      'Job listings & detail pages with company info',
+      'Search, filter & application interfaces',
+      'Candidate & employer dashboards',
+      'Job posting, editing, deletion workflows',
+      'Saved jobs & application tracking UI',
+    ],
+    image: '/images/job-portal.svg',
+    github: '[GitHub URL — Job Portal]',
+    demo: '[Live Demo URL — Job Portal]',
+  },
+];
